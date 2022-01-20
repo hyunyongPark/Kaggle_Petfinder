@@ -10,7 +10,7 @@
 
 <br/><br/><br/>
 # Introduction
-![image]()
+![image](https://github.com/hyunyongPark/Kaggle_petfinder/blob/main/imgs/competition_banner.PNG)
 
 Kaggle 주최인 [Image Regression](https://www.kaggle.com/c/petfinder-pawpularity-score/overview)로서, 애완이미지(개, 고양이)의 이미지들과 여러가지 포즈나, 사진구도, 표정 등의 메타정보를 활용하여 Pawpularity(인기도)를 예측하는 task이다. 
 
@@ -18,7 +18,7 @@ Kaggle 주최인 [Image Regression](https://www.kaggle.com/c/petfinder-pawpulari
 # Dataset / Evaluation
 
 ### 1) Dataset
-![image]()
+![image](https://github.com/hyunyongPark/Kaggle_petfinder/blob/main/imgs/dataset_example1.PNG)
 
 본 데이터셋은 위의 그림과 같이 각 이미지에 대한 인기도를 예측해야하며, 개,고양이에 대한 이미지 파일들, 그리고 여러 메타정보를 가지고 있는 csv file이 존재한다. 
 
@@ -37,7 +37,7 @@ csv file의 각 column은 다음과 같다.
 > * Blur - Noticeably out of focus or noisy, especially for the pet’s eyes and face. For Blur entries, “Eyes” column is always set to 0.
 
 ### 2) Evaluation
-![image]()
+![image](https://github.com/hyunyongPark/Kaggle_petfinder/blob/main/imgs/evaluation.PNG)
 
 본 대회에서는 RMSE 산식을 이용하여 리더보드 평가를 진행한다. 
 
@@ -53,4 +53,8 @@ csv file의 각 column은 다음과 같다.
 # Conclusion
 원래 public 리더보드는 80등 은메달권에 정착하고 있었으나, 마지막 private 리더보드에서 530등(Top 15%) 획득하였다. public의 경우 테스트데이터의 25%, private는 75%로 평가를 하는데, 이렇게 25% 데이터에 대해 오버피팅이 심하게 발생할지는 예상하지 못했다. noise가 심한것일까.. 대회자체가 많은 의문이 드는 대회였던것 같다..
 
-![image]()
+**public**
+![image](https://github.com/hyunyongPark/Kaggle_petfinder/blob/main/imgs/leaderboard_private.PNG)
+
+**private**
+![image](https://github.com/hyunyongPark/Kaggle_petfinder/blob/main/imgs/leaderboard_public.PNG)
